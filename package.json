@@ -1,0 +1,42 @@
+{
+  "name": "ac-grid",
+  "version": "0.1.0",
+  "description": "AngularJS directive for displaying a grid of checkboxes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/alexander-clark/ac-grid.git"
+  },
+  "keywords": [
+    "checkbox",
+    "grid",
+    "angularjs"
+  ],
+  "author": "Alexander Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexander-clark/ac-grid/issues"
+  },
+  "homepage": "https://github.com/alexander-clark/ac-grid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-preset-minify": "^0.3.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "ngtemplate-loader": "^2.0.1",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
