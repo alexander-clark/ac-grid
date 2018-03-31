@@ -1,0 +1,27 @@
+{
+  "name": "ac-grid",
+  "version": "0.1.1",
+  "description": "AngularJS directive for displaying a grid of checkboxes",
+  "main": [
+    "dist/ac-grid.js",
+    "dist/ac-grid.css"
+  ],
+  "authors": [
+    "Alexander Clark"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "checkbox",
+    "grid",
+    "angularjs"
+  ],
+  "homepage": "https://github.com/alexander-clark/ac-grid",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "demo",
+    "node_modules",
+    "src",
+    "test"
+  ]
+}

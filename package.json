@@ -1,8 +1,9 @@
 {
   "name": "ac-grid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AngularJS directive for displaying a grid of checkboxes",
-  "main": "src/index.js",
+  "main": "dist/ac-grid.js",
+  "style": "dist/ac-grid.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
