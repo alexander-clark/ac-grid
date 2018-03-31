@@ -28,7 +28,7 @@ npm install --save ac-grid
 bower install ac-grid
 ```
 
-1. Include the files in your code
+2. Include the files in your code
 
 ```html
 <link rel="stylesheet" type="text/css" href="node_modules/ac-grid/ac-grid.css">
@@ -36,7 +36,7 @@ bower install ac-grid
 <script src="node_modules/ac-grid/ac-grid.js"></script>
 ```
 
-1. Require ac-grid in your angular module.
+3. Require ac-grid in your angular module.
 
 ```javascript
 angular.module('myapp', ['ac-grid']);
