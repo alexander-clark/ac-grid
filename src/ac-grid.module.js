@@ -1,1 +1,1 @@
-export default angular.module('ac-grid', ['angular.filter']);
+export default angular.module('ac-grid', []);

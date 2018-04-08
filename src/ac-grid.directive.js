@@ -19,6 +19,7 @@ export default function acGrid() {
     require: 'ngModel',
     restrict: 'E',
     scope: {
+      disabled: '<',
       ngModel: '=',
       options: '<',
       perRow: '<'

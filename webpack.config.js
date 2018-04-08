@@ -12,8 +12,7 @@ module.exports = {
     'ac-grid': './src/index.js',
   },
   externals: {
-    angular: 'angular',
-    'angular-filter': 'angular.filter'
+    angular: 'angular'
   },
   module: {
     rules: [
